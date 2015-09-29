@@ -14,6 +14,28 @@
 		5CD0D2BA1BB04E5600D97AD4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CD0D2B91BB04E5600D97AD4 /* Images.xcassets */; };
 		5CD0D2BD1BB04E5600D97AD4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CD0D2BB1BB04E5600D97AD4 /* LaunchScreen.xib */; };
 		5CD0D2C91BB04E5600D97AD4 /* LFETests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD0D2C81BB04E5600D97AD4 /* LFETests.m */; };
+		5CD0D2D41BB04F8E00D97AD4 /* ImageButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD0D2D31BB04F8E00D97AD4 /* ImageButton.m */; };
+		5CD0D2D71BB0546E00D97AD4 /* PageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD0D2D61BB0546E00D97AD4 /* PageView.m */; };
+		5CD0D2DF1BB05CE500D97AD4 /* UIColor+HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD0D2DA1BB05CE500D97AD4 /* UIColor+HexColor.m */; };
+		5CD0D2E01BB05CE500D97AD4 /* VBPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD0D2DC1BB05CE500D97AD4 /* VBPieChart.m */; };
+		5CD0D2E11BB05CE500D97AD4 /* VBPiePiece.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD0D2DE1BB05CE500D97AD4 /* VBPiePiece.m */; };
+		5CD0D2F71BB05E3500D97AD4 /* LineAndBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD0D2F61BB05E3500D97AD4 /* LineAndBarChart.m */; };
+		5CD0D2FA1BB061D800D97AD4 /* BarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD0D2F91BB061D800D97AD4 /* BarChart.m */; };
+		5CD0D2FD1BB0682A00D97AD4 /* SportsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD0D2FC1BB0682A00D97AD4 /* SportsView.m */; };
+		5CD0D31C1BB075CB00D97AD4 /* UUBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD0D3111BB075CB00D97AD4 /* UUBar.m */; };
+		5CD0D31D1BB075CB00D97AD4 /* UUBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD0D3131BB075CB00D97AD4 /* UUBarChart.m */; };
+		5CD0D31E1BB075CB00D97AD4 /* UUChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD0D3151BB075CB00D97AD4 /* UUChart.m */; };
+		5CD0D31F1BB075CB00D97AD4 /* UUChartLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD0D3171BB075CB00D97AD4 /* UUChartLabel.m */; };
+		5CD0D3201BB075CB00D97AD4 /* UUColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD0D3191BB075CB00D97AD4 /* UUColor.m */; };
+		5CD0D3211BB075CB00D97AD4 /* UULineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD0D31B1BB075CB00D97AD4 /* UULineChart.m */; };
+		5CD0D3241BB08F6400D97AD4 /* medcialView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD0D3231BB08F6400D97AD4 /* medcialView.m */; };
+		5CD0D3271BB0CFF400D97AD4 /* SportsAddView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD0D3261BB0CFF400D97AD4 /* SportsAddView.m */; };
+		5CD0D32A1BB0DA0900D97AD4 /* ChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD0D3291BB0DA0900D97AD4 /* ChartView.m */; };
+		5CD0D3301BB0E79700D97AD4 /* SupportView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD0D32F1BB0E79700D97AD4 /* SupportView.m */; };
+		5CD0D3331BB0EB4900D97AD4 /* SettingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD0D3321BB0EB4900D97AD4 /* SettingView.m */; };
+		5CD0D3361BB0EB7000D97AD4 /* SettingMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD0D3351BB0EB7000D97AD4 /* SettingMain.m */; };
+		5CD0D3391BB0EDAB00D97AD4 /* personView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD0D3381BB0EDAB00D97AD4 /* personView.m */; };
+		5CD0D33C1BB0F33A00D97AD4 /* DeviceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD0D33B1BB0F33A00D97AD4 /* DeviceView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +62,50 @@
 		5CD0D2C21BB04E5600D97AD4 /* LFETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LFETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CD0D2C71BB04E5600D97AD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CD0D2C81BB04E5600D97AD4 /* LFETests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFETests.m; sourceTree = "<group>"; };
+		5CD0D2D21BB04F8E00D97AD4 /* ImageButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageButton.h; sourceTree = "<group>"; };
+		5CD0D2D31BB04F8E00D97AD4 /* ImageButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageButton.m; sourceTree = "<group>"; };
+		5CD0D2D51BB0546E00D97AD4 /* PageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageView.h; sourceTree = "<group>"; };
+		5CD0D2D61BB0546E00D97AD4 /* PageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageView.m; sourceTree = "<group>"; };
+		5CD0D2D91BB05CE500D97AD4 /* UIColor+HexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexColor.h"; sourceTree = "<group>"; };
+		5CD0D2DA1BB05CE500D97AD4 /* UIColor+HexColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexColor.m"; sourceTree = "<group>"; };
+		5CD0D2DB1BB05CE500D97AD4 /* VBPieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VBPieChart.h; sourceTree = "<group>"; };
+		5CD0D2DC1BB05CE500D97AD4 /* VBPieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VBPieChart.m; sourceTree = "<group>"; };
+		5CD0D2DD1BB05CE500D97AD4 /* VBPiePiece.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VBPiePiece.h; sourceTree = "<group>"; };
+		5CD0D2DE1BB05CE500D97AD4 /* VBPiePiece.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VBPiePiece.m; sourceTree = "<group>"; };
+		5CD0D2F51BB05E3500D97AD4 /* LineAndBarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineAndBarChart.h; sourceTree = "<group>"; };
+		5CD0D2F61BB05E3500D97AD4 /* LineAndBarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineAndBarChart.m; sourceTree = "<group>"; };
+		5CD0D2F81BB061D800D97AD4 /* BarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarChart.h; sourceTree = "<group>"; };
+		5CD0D2F91BB061D800D97AD4 /* BarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarChart.m; sourceTree = "<group>"; };
+		5CD0D2FB1BB0682A00D97AD4 /* SportsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SportsView.h; sourceTree = "<group>"; };
+		5CD0D2FC1BB0682A00D97AD4 /* SportsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SportsView.m; sourceTree = "<group>"; };
+		5CD0D3101BB075CB00D97AD4 /* UUBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UUBar.h; path = ../../UUChartView/UUChart/UUBar.h; sourceTree = "<group>"; };
+		5CD0D3111BB075CB00D97AD4 /* UUBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UUBar.m; path = ../../UUChartView/UUChart/UUBar.m; sourceTree = "<group>"; };
+		5CD0D3121BB075CB00D97AD4 /* UUBarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UUBarChart.h; path = ../../UUChartView/UUChart/UUBarChart.h; sourceTree = "<group>"; };
+		5CD0D3131BB075CB00D97AD4 /* UUBarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UUBarChart.m; path = ../../UUChartView/UUChart/UUBarChart.m; sourceTree = "<group>"; };
+		5CD0D3141BB075CB00D97AD4 /* UUChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UUChart.h; path = ../../UUChartView/UUChart/UUChart.h; sourceTree = "<group>"; };
+		5CD0D3151BB075CB00D97AD4 /* UUChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UUChart.m; path = ../../UUChartView/UUChart/UUChart.m; sourceTree = "<group>"; };
+		5CD0D3161BB075CB00D97AD4 /* UUChartLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UUChartLabel.h; path = ../../UUChartView/UUChart/UUChartLabel.h; sourceTree = "<group>"; };
+		5CD0D3171BB075CB00D97AD4 /* UUChartLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UUChartLabel.m; path = ../../UUChartView/UUChart/UUChartLabel.m; sourceTree = "<group>"; };
+		5CD0D3181BB075CB00D97AD4 /* UUColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UUColor.h; path = ../../UUChartView/UUChart/UUColor.h; sourceTree = "<group>"; };
+		5CD0D3191BB075CB00D97AD4 /* UUColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UUColor.m; path = ../../UUChartView/UUChart/UUColor.m; sourceTree = "<group>"; };
+		5CD0D31A1BB075CB00D97AD4 /* UULineChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UULineChart.h; path = ../../UUChartView/UUChart/UULineChart.h; sourceTree = "<group>"; };
+		5CD0D31B1BB075CB00D97AD4 /* UULineChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UULineChart.m; path = ../../UUChartView/UUChart/UULineChart.m; sourceTree = "<group>"; };
+		5CD0D3221BB08F6400D97AD4 /* medcialView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = medcialView.h; sourceTree = "<group>"; };
+		5CD0D3231BB08F6400D97AD4 /* medcialView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = medcialView.m; sourceTree = "<group>"; };
+		5CD0D3251BB0CFF400D97AD4 /* SportsAddView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SportsAddView.h; sourceTree = "<group>"; };
+		5CD0D3261BB0CFF400D97AD4 /* SportsAddView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SportsAddView.m; sourceTree = "<group>"; };
+		5CD0D3281BB0DA0900D97AD4 /* ChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartView.h; sourceTree = "<group>"; };
+		5CD0D3291BB0DA0900D97AD4 /* ChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartView.m; sourceTree = "<group>"; };
+		5CD0D32E1BB0E79700D97AD4 /* SupportView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SupportView.h; sourceTree = "<group>"; };
+		5CD0D32F1BB0E79700D97AD4 /* SupportView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SupportView.m; sourceTree = "<group>"; };
+		5CD0D3311BB0EB4900D97AD4 /* SettingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingView.h; sourceTree = "<group>"; };
+		5CD0D3321BB0EB4900D97AD4 /* SettingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingView.m; sourceTree = "<group>"; };
+		5CD0D3341BB0EB7000D97AD4 /* SettingMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingMain.h; sourceTree = "<group>"; };
+		5CD0D3351BB0EB7000D97AD4 /* SettingMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingMain.m; sourceTree = "<group>"; };
+		5CD0D3371BB0EDAB00D97AD4 /* personView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = personView.h; sourceTree = "<group>"; };
+		5CD0D3381BB0EDAB00D97AD4 /* personView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = personView.m; sourceTree = "<group>"; };
+		5CD0D33A1BB0F33A00D97AD4 /* DeviceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceView.h; sourceTree = "<group>"; };
+		5CD0D33B1BB0F33A00D97AD4 /* DeviceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +147,8 @@
 		5CD0D2AB1BB04E5600D97AD4 /* LFE */ = {
 			isa = PBXGroup;
 			children = (
+				5CD0D2E21BB05CEC00D97AD4 /* uuchart */,
+				5CD0D2D81BB05CCF00D97AD4 /* pie */,
 				5CD0D2B01BB04E5600D97AD4 /* AppDelegate.h */,
 				5CD0D2B11BB04E5600D97AD4 /* AppDelegate.m */,
 				5CD0D2B31BB04E5600D97AD4 /* ViewController.h */,
@@ -89,6 +157,32 @@
 				5CD0D2B91BB04E5600D97AD4 /* Images.xcassets */,
 				5CD0D2BB1BB04E5600D97AD4 /* LaunchScreen.xib */,
 				5CD0D2AC1BB04E5600D97AD4 /* Supporting Files */,
+				5CD0D2D21BB04F8E00D97AD4 /* ImageButton.h */,
+				5CD0D2D31BB04F8E00D97AD4 /* ImageButton.m */,
+				5CD0D2D51BB0546E00D97AD4 /* PageView.h */,
+				5CD0D2D61BB0546E00D97AD4 /* PageView.m */,
+				5CD0D2F51BB05E3500D97AD4 /* LineAndBarChart.h */,
+				5CD0D2F61BB05E3500D97AD4 /* LineAndBarChart.m */,
+				5CD0D2F81BB061D800D97AD4 /* BarChart.h */,
+				5CD0D2F91BB061D800D97AD4 /* BarChart.m */,
+				5CD0D2FB1BB0682A00D97AD4 /* SportsView.h */,
+				5CD0D2FC1BB0682A00D97AD4 /* SportsView.m */,
+				5CD0D3221BB08F6400D97AD4 /* medcialView.h */,
+				5CD0D3231BB08F6400D97AD4 /* medcialView.m */,
+				5CD0D3251BB0CFF400D97AD4 /* SportsAddView.h */,
+				5CD0D3261BB0CFF400D97AD4 /* SportsAddView.m */,
+				5CD0D3281BB0DA0900D97AD4 /* ChartView.h */,
+				5CD0D3291BB0DA0900D97AD4 /* ChartView.m */,
+				5CD0D32E1BB0E79700D97AD4 /* SupportView.h */,
+				5CD0D32F1BB0E79700D97AD4 /* SupportView.m */,
+				5CD0D3311BB0EB4900D97AD4 /* SettingView.h */,
+				5CD0D3321BB0EB4900D97AD4 /* SettingView.m */,
+				5CD0D3341BB0EB7000D97AD4 /* SettingMain.h */,
+				5CD0D3351BB0EB7000D97AD4 /* SettingMain.m */,
+				5CD0D3371BB0EDAB00D97AD4 /* personView.h */,
+				5CD0D33A1BB0F33A00D97AD4 /* DeviceView.h */,
+				5CD0D3381BB0EDAB00D97AD4 /* personView.m */,
+				5CD0D33B1BB0F33A00D97AD4 /* DeviceView.m */,
 			);
 			path = LFE;
 			sourceTree = "<group>";
@@ -117,6 +211,38 @@
 				5CD0D2C71BB04E5600D97AD4 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5CD0D2D81BB05CCF00D97AD4 /* pie */ = {
+			isa = PBXGroup;
+			children = (
+				5CD0D2D91BB05CE500D97AD4 /* UIColor+HexColor.h */,
+				5CD0D2DA1BB05CE500D97AD4 /* UIColor+HexColor.m */,
+				5CD0D2DB1BB05CE500D97AD4 /* VBPieChart.h */,
+				5CD0D2DC1BB05CE500D97AD4 /* VBPieChart.m */,
+				5CD0D2DD1BB05CE500D97AD4 /* VBPiePiece.h */,
+				5CD0D2DE1BB05CE500D97AD4 /* VBPiePiece.m */,
+			);
+			name = pie;
+			sourceTree = "<group>";
+		};
+		5CD0D2E21BB05CEC00D97AD4 /* uuchart */ = {
+			isa = PBXGroup;
+			children = (
+				5CD0D3101BB075CB00D97AD4 /* UUBar.h */,
+				5CD0D3111BB075CB00D97AD4 /* UUBar.m */,
+				5CD0D3121BB075CB00D97AD4 /* UUBarChart.h */,
+				5CD0D3131BB075CB00D97AD4 /* UUBarChart.m */,
+				5CD0D3141BB075CB00D97AD4 /* UUChart.h */,
+				5CD0D3151BB075CB00D97AD4 /* UUChart.m */,
+				5CD0D3161BB075CB00D97AD4 /* UUChartLabel.h */,
+				5CD0D3171BB075CB00D97AD4 /* UUChartLabel.m */,
+				5CD0D3181BB075CB00D97AD4 /* UUColor.h */,
+				5CD0D3191BB075CB00D97AD4 /* UUColor.m */,
+				5CD0D31A1BB075CB00D97AD4 /* UULineChart.h */,
+				5CD0D31B1BB075CB00D97AD4 /* UULineChart.m */,
+			);
+			name = uuchart;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,9 +345,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CD0D2FD1BB0682A00D97AD4 /* SportsView.m in Sources */,
+				5CD0D3391BB0EDAB00D97AD4 /* personView.m in Sources */,
 				5CD0D2B51BB04E5600D97AD4 /* ViewController.m in Sources */,
 				5CD0D2B21BB04E5600D97AD4 /* AppDelegate.m in Sources */,
+				5CD0D31D1BB075CB00D97AD4 /* UUBarChart.m in Sources */,
 				5CD0D2AF1BB04E5600D97AD4 /* main.m in Sources */,
+				5CD0D3301BB0E79700D97AD4 /* SupportView.m in Sources */,
+				5CD0D2E11BB05CE500D97AD4 /* VBPiePiece.m in Sources */,
+				5CD0D3361BB0EB7000D97AD4 /* SettingMain.m in Sources */,
+				5CD0D31F1BB075CB00D97AD4 /* UUChartLabel.m in Sources */,
+				5CD0D33C1BB0F33A00D97AD4 /* DeviceView.m in Sources */,
+				5CD0D32A1BB0DA0900D97AD4 /* ChartView.m in Sources */,
+				5CD0D3331BB0EB4900D97AD4 /* SettingView.m in Sources */,
+				5CD0D3211BB075CB00D97AD4 /* UULineChart.m in Sources */,
+				5CD0D2D41BB04F8E00D97AD4 /* ImageButton.m in Sources */,
+				5CD0D2E01BB05CE500D97AD4 /* VBPieChart.m in Sources */,
+				5CD0D3241BB08F6400D97AD4 /* medcialView.m in Sources */,
+				5CD0D2D71BB0546E00D97AD4 /* PageView.m in Sources */,
+				5CD0D2FA1BB061D800D97AD4 /* BarChart.m in Sources */,
+				5CD0D3271BB0CFF400D97AD4 /* SportsAddView.m in Sources */,
+				5CD0D31C1BB075CB00D97AD4 /* UUBar.m in Sources */,
+				5CD0D2F71BB05E3500D97AD4 /* LineAndBarChart.m in Sources */,
+				5CD0D3201BB075CB00D97AD4 /* UUColor.m in Sources */,
+				5CD0D31E1BB075CB00D97AD4 /* UUChart.m in Sources */,
+				5CD0D2DF1BB05CE500D97AD4 /* UIColor+HexColor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +564,7 @@
 				5CD0D2CE1BB04E5600D97AD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5CD0D2CF1BB04E5600D97AD4 /* Build configuration list for PBXNativeTarget "LFETests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +573,7 @@
 				5CD0D2D11BB04E5600D97AD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
